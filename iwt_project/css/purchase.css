@@ -1,0 +1,256 @@
+/* media responsive */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  /*New*/
+.row-image {
+    margin-left: 50px;
+    /*width: 70%;*/
+}
+.col {
+    display: inline-table;
+    padding: 56px 90px 14px 0px;
+}
+#item-button {
+    background-color: rgba(23, 55, 145, 0.466);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 15px 32px;
+ 
+}
+#feadback-button {
+    color: rgb(0, 0, 0);
+      text-align: center;
+      text-decoration: none;
+      border-radius: 20px;
+      cursor: pointer;
+      margin-top: -150px;
+      margin-right: -50px;
+      padding: 15px 32px;
+    margin-top: 60px;
+}
+ .cartbutton{
+     
+      color: rgb(0, 0, 0);
+      float: relative;
+      margin-top: 150px;
+      margin-right: 50%;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+  
+  .continue{
+     
+      color: rgb(50, 3, 0);
+      float: center;
+	  margin-left:360px;
+      margin-top: 250px;
+      
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+  .col img {
+      width: 280px;
+  }
+  #delete-button {
+    padding: 10px 12px;
+    color: rgb(0, 0, 0);
+      text-align: center;
+      text-decoration: none;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+  #update-button {
+    padding: 10px 25px;
+    color: rgb(0, 0, 0);
+      text-align: center;
+      text-decoration: none;
+      border-radius: 20px;
+      cursor: pointer;
+  }
+  /*New end*/
+  /*row 1 */
+
+/*.row-1{
+    margin-top: 40px;
+}
+  
+.row-1-column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+}
+
+.row-1-column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+}
+
+.row-1-column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+}
+  
+.row-1-row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+  /*row 2 */
+
+/*.row-2{
+    margin-top: 40px;
+}
+  
+.row-2-column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+}
+
+.row-2-column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+	display: inline;
+}
+
+.row-2-column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+	display: inline;
+}
+  
+.row-2-row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+  /*row 3 */
+
+/*  .row-3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+  
+.row-3-column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+}
+
+.row-3-column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+}
+
+.row-3-column3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 400px; 
+}
+  
+.row-3-row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*.row-image{
+    margin-left: 50px;
+    width: 60%;
+} */
+
+/*#column-name{
+    margin-left: -94px;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+
+
+#item-button {
+    background-color: rgba(23, 55, 145, 0.466);
+    border: none;
+    padding: 15px 32px;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+        margin-left: -70px;
+    cursor: pointer;
+    color: black;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: -70px;
+  }
+  /*p{
+      margin-left: -96px;
+      margin-top: 5px;
+  }
+
+  /*#column3-name{
+      
+      margin-top: 51px;
+      margin-left: -256px
+  }
+
+  #name3{
+      margin-left: -252px;
+  }*/
+
+  /*#feadback-button{
+     
+      color: rgb(0, 0, 0);
+      float: right;
+      margin-top: -150px;
+      margin-right: 90px;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 20px;
+      cursor: pointer;
+
+
+  }
+ 
